@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft Tracking System</title>
+    <link rel="icon" href="icon\aircraft.png" type="image/x-icon" />
+
+    <!-- Levent ERGÖREN tarafından yapılmıştır -->
+
+    <style>
+        .tablo {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,td,table{
+            padding: 10px;
+            border: 3px solid #40514E;
+        }
+        
+        .zaman , .ortala{
+            text-align: center;
+        }
+
+        th{
+            background-color: #11999E;
+            font-size: 28px;
+            font-style: italic;
+        }
+        
+        tr:nth-child(even){
+            background-color: #E4F9F5
+        }
+
+        td{
+            font-size: 23px;
+            font-style: serif;
+            
+        }
+        
+        tr:hover {
+            background-color: #30E3CA
+        }
+        
+
+    </style>
+
+
+</head>
+<body>
+
+    <table class="tablo">
+        <thead class="baslik">
+            <tr>
+                <th>Arrival</th>
+                <th>Destination</th>
+                <th>Estimated Departure</th>
+                <th>Estimated Arrival</th>
+                <th>Code</th>
+                <th>Peron</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Istanbul Airport</td>
+                <td>Londra Heathrow Airport</td>
+                <td class="zaman">12.30</td>
+                <td class="zaman">16.30</td>
+                <td class="ortala">TK-468</td>
+                <td class="ortala">AA048</td>
+            </tr>
+            <tr>
+                <td>Antalya Airport</td>
+                <td>Frankfurt Airport</td>
+                <td class="zaman">12.40</td>
+                <td class="zaman">18.05</td>
+                <td class="ortala">TK-182</td>
+                <td class="ortala">CG856</td>
+            </tr>
+            <tr>
+                <td>Izmir Adnan Menderes Airport</td>
+                <td>Amsterdam Schiphol Airport</td>
+                <td class="zaman">12.45</td>
+                <td class="zaman">15.45</td>
+                <td class="ortala">TK-354</td>
+                <td class="ortala">SD495</td>
+            </tr>
+            <tr>
+                <td>Kocaeli Cengiz Topel Airport</td>
+                <td>Munih Airport</td>
+                <td class="zaman">12.50</td>
+                <td class="zaman">17.50</td>
+                <td class="ortala">TK-129</td>
+                <td class="ortala">PD133</td>
+            </tr>
+            <tr>
+                <td>Malatya Airport</td>
+                <td>Londra Gatwick Airport</td>
+                <td class="zaman">13.05</td>
+                <td class="zaman">18.05</td>
+                <td class="ortala">TK-249</td>
+                <td class="ortala">SU185</td>
+            </tr>
+            <tr>
+                <td>Ankara Esen Boga Airport</td>
+                <td>Barcelona International Airport</td>
+                <td class="zaman">13.10</td>
+                <td class="zaman">19.35</td>
+                <td class="ortala">TK-459</td>
+                <td class="ortala">KG654</td>
+            </tr>
+            <tr>
+                <td>Istanbul Sabiha Gokcen Airport</td>
+                <td>Manchester Airport</td>
+                <td class="zaman">13.15</td>
+                <td class="zaman">15.35</td>
+                <td class="ortala">TK-146</td>
+                <td class="ortala">AL586</td>
+            </tr>
+            <tr>
+                <td>Canakkale Airport</td>
+                <td>Milano Malpensa Airport</td>
+                <td class="zaman">13.25</td>
+                <td class="zaman">17.20</td>
+                <td class="ortala">TK-298</td>
+                <td class="ortala">JG595</td>
+            </tr>
+            <tr>
+                <td>Van Ferit Melen Airport</td>
+                <td>Edinburgh Airport</td>
+                <td class="zaman">13.30</td>
+                <td class="zaman">19.55</td>
+                <td class="ortala">TK-357</td>
+                <td class="ortala">LJ351</td>
+            </tr>
+            <tr>
+                <td>Bursa Yenisehir Airport</td>
+                <td>Koln Bonn Airport</td>
+                <td class="zaman">13.40</td>
+                <td class="zaman">15.55</td>
+                <td class="ortala">TK-258</td>
+                <td class="ortala">LS159</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
