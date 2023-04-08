@@ -1,2 +1,2 @@
 # Html-Css-Aircraft-Tracking
-It is static not dynamic.
+This repository shows the aircraft tracking system made using css with a table structure.
